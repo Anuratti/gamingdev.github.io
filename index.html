@@ -1,0 +1,304 @@
+<!DOCTYPE HTML>
+
+<html lang="pl">
+
+<head>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="description" content="game dev" />
+	<meta name="keywords" content="game dev, mmo dev," />
+	
+	<title>game dev</title>
+	
+	
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Saira" rel="stylesheet">
+	<link rel="stylesheet" href="css/fontello.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+		<script src="jquery.scrollTo.min.js"></script>
+
+	<script>
+		
+		jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);
+			
+			$('#link2').click(function() { $.scrollTo($('#mmo'), 500); });
+			$('#link3').click(function() { $.scrollTo($('#unreal'), 500); });
+			$('#link4').click(function() { $.scrollTo($('#java'), 500); });
+			$('#link5').click(function() { $.scrollTo($('#projekt'), 500); });
+			$('#link6').click(function() { $.scrollTo($('.fb'), 500); });
+			
+			$('.upper').click(function() { $.scrollTo($('body'), 800); });
+		}
+		
+		);
+		
+			//pokaż podczas przewijania
+			$(window).scroll(function()
+		{
+			if($(this).scrollTop()>200) $('.upper').fadeIn();
+			else $('.upper').fadeOut();		
+		}
+		);
+	
+	
+	
+	</script>
+ 
+</head>
+ 
+<body>
+
+	
+
+	<header>
+ 
+		<div class="logo">
+			<div class="overlay"> <div class="fake"><p>by noobs</p></div></div>
+		</div>
+
+		<nav id="nav">	
+		
+		
+		
+			<ol>
+				<li><a id="link1" href="#">Strona główna</a></li>
+				<li><a href="#">gatunek</a>
+				<ul>
+						<li><a id="link2" href="#">mmo rpg</a></li>
+						<li><a href="#">karciane</a></li>
+						<li><a href="#">fpp i tpp</a></li>
+					</ul>
+				</li>
+				<li><a href="#">silniki</a>
+					<ul>
+						<li><a id="link3" href="#">unreal engine</a></li>
+						<li><a href="#">unity</a></li>
+					</ul>
+				</li>
+				<li><a href="#">języki</a>
+					<ul>
+						<li><a id="link4" href="#">java</a></li>
+						<li><a href="#">java script</a></li>
+						<li><a href="#">C++</a></li>
+						<li><a href="#">C#</a></li>
+					</ul>
+				</li>
+				<li><a id="link5" href="#">O projekcie</a></li>
+				<li><a id="link6" href="#">Kontakt</a></li>
+		
+			
+			</ol>
+			
+		</nav>
+
+	</header>
+	
+	<main>
+	
+	
+		
+		<article>
+		
+			<div class="content">
+			
+			 <header>
+			 
+			  <h1 id="top"> Game development </h1>
+			  
+			 </header>
+			  
+			  <p> Przemysł gier komputerowych jest aktualnie porównywalny, a może nawet przewyższający swoim rozmachem przemysł filmowy. Programowanie gier łączy w sobie nie tylko inżynierię oprogramowania, grafikę i multimedia, sztuczną inteligencję, nauki ścisłe i prawa fizyki, ale także pracę wielu osób związanych ze sztuką.</p>
+
+			  <p> Dzięki książkom z działu Programowanie gier dowiecie się jak wygląda proces tworzenia gry od pomysłu, przez projektowanie, tworzenia oprawy multimedialnej, właściwie programowanie a skończywszy na testowaniu. Poznacie sposoby wykorzystania interfejsów OpenGL i DirectX. Nauczycie się gdzie w kodzie warto wykorzystać Asembler zamiast języków wyższych takich jak C++ czy Java.</p>
+			  
+			
+			
+				<div class="foty">
+				
+				<img src="images/img1.jpg" width="500" height="300">
+			
+				</div>
+			
+              </div>
+			  
+		</article>
+		</main>
+
+		<article>
+		
+		<div class="content2">
+		<div class="content2div">
+		
+			 <header>
+			 
+			  <h1 id="mmo"> MMO  Role Playing Games </h1>
+			  
+			 </header>
+			 
+			 <p>MMORPG (skrót od Massively multiplayer online role-playing game) – rodzaj gier komputerowych RPG, w których duża liczba graczy może grać ze sobą w wirtualnym świecie. Podobnie jak w innych rodzajach gier fabularnych gracz wciela się w postać i kieruje jej działaniami.</p>
+
+			<p>Dostęp do gier MMORPG zwykle jest zapewniany przez producenta gry. Gry tego typu są bardzo popularne na całym świecie. Trudno jednak oszacować konkretną liczbę, ze względu na fakt, iż wydawcy mają tendencje do podawania liczb ze swoich baz danych, jako ogólną liczbę osób, które w ogóle grało w daną grę. Bazując jednak na dochodach wydawców, liczbę graczy w 2010 szacowano na 61 milionów, z czego 47 milionów tylko w Stanach Zjednoczonych.</p>
+
+			<p>Obecnie uznaje się gry MMORPG za podgrupę gier MMO, choć to właśnie MMORPG z tej grupy pojawiło się jako pierwsze.</p>
+			
+			 <p> <center>Cechy mmorpg:</center></p>
+			 
+			 <ul class="lista1">
+						<li>styl gry oparty na grze fabularnej np. Guild Wars czy World of Warcraft, czyli: zadania do wypełnienia, wrogowie do pokonania, coraz to nowszy ekwipunek do zdobycia, uzyskiwanie kolejnych poziomów doświadczenia;</li>
+						<li>system rozwijania postaci: wzrost umiejętności i/lub poziomu postaci, dzięki zdobytym punktom doświadczenia;</li>
+						<li>ekonomię opartą na handlu między graczami lub między graczami a NPC-ami;</li>
+						<li>system gildii lub klanów, do których mogą dołączać gracze;</li>
+						<li>mistrzów gry, którzy nadzorują świat gry;</li>
+						<li>administratorów, którzy nadzorują pracę serwera gry.</li>
+						
+					</ul>
+			
+		</div>
+		</div>
+ 
+        </article>
+		
+		<article>
+		
+			<div class="content">
+			
+			 <header>
+			 
+
+			 
+			  <h1 id="unreal"> Unreal Engine </h1>
+			  
+			 </header>
+			
+			  
+			  <p> Unreal Engine – silnik gry, wyprodukowany przez firmę Epic Games. Pierwotnie wykorzystywany w grach FPP, z czasem zaczął być wykorzystywany również w grach komputerowych typu RPG, MMORPG oraz w tak zwanych skradankach.</p>
+
+			  
+			  <p>Jądro silnika zostało napisane w języku C++, a jego twórcy zaimplementowali w nim mechanizmy wspomagające wieloplatformowość. Ze względu na to oraz wysoki poziom technologiczny (16 lat rozwoju silnika przy dużym wsparciu finansowym) wielu deweloperów gier chętnie go wykorzystuje. Obsługuje między innymi platformy Windows, Linux, Mac OS, PlayStation 3, PlayStation 4, Xbox 360, Xbox One oraz iOS.</p>
+			  
+			   <img src="images/ue.png">
+			  
+			  <p>Po blisko roku obecności na rynku, Unreal Engine 4 został przez twórców udostępniony za darmo. Od tej pory wszyscy chętni mogą wykorzystywać silnik graficzny bez konieczności wnoszenia początkowych opłat lub miesięcznego abonamentu.</p>
+			  
+			  <p>Epic Games oczywiście nie rezygnuje całkowicie z zysków generowanych przez swoją technologię – twórcy, którzy zdecydują się wykorzystać ich silnik, zobowiązani są do wypłaty pięcioprocentowej tantiemy od sprzedaży swojego produktu. Warunek ten nabiera jednak mocy dopiero po osiągnięciu przychodów rzędu 3 000 dolarów - projekty, które nie przebiją tego pułapu, mogą swobodnie korzystać z silnika bez żadnych opłat. Deweloperzy płacą dopiero, po osiągnięciu komercyjnego sukcesu, co z pewnością ucieszy wiele początkujących i niezależnych zespołów.</p>
+
+
+			 </div>
+			  
+		</article>
+		
+		<article>
+		
+		<div class="content2">
+		<div class="content2div">
+		
+			 <header>
+			 
+			  <h1 id="java"> Java </h1>
+			  
+			 </header>
+			 
+			 <p>Technologia Java to podstawa projektowania niemal każdego rodzaju aplikacji sieciowej — stanowi ogólnoświatowy standard wykorzystywany przy tworzeniu aplikacji dla urządzeń mobilnych, aplikacji wbudowywanych, gier, zawartości i treści internetowych oraz oprogramowania dla przedsiębiorstw. Społeczność ponad 9 milionów oddanych programistów przyczynia się do sprawnego tworzenia, implementacji oraz użytkowania aplikacji i usług.</p>
+
+			<p>Technologia Java była testowana, udoskonalana, rozszerzana i ulepszana przez oddaną społeczność programistów, architektów i entuzjastów. Została zaprojektowana tak, aby umożliwić programowanie przenośnych, wysoce wydajnych aplikacji dla możliwie najszerszego spektrum platform przetwarzania cyfrowego. Dzięki aplikacjom dostępnym w heterogenicznych środowiskach, firmy mogą dostarczać więcej usług oraz zwiększać produktywność, komunikatywność i współpracę użytkowników końcowych, radykalnie zmniejszając koszty związane z prowadzeniem działalności i utrzymywaniem aplikacji konsumenckich. </p>
+			
+			 <img width="260" height="260" src="images/java.png">
+			
+			<p>Młodzi ludzie uczą się języków programowania od najmłodszych lat. Wizualne narzędzia edukacyjne, takie jak Alice, Greenfoot i BlueJ uczą młodych ludzi, jak programować w języku Java oraz w językach na nim opartych, opracowanych w celu ułatwienia programowania.</p>
+			
+			<p>Java jest wszędzie — od laptopów po centra danych, od konsol do gier po superkomputery naukowe, od telefonów komórkowych po Internet!</p>
+
+			
+	
+			
+		</div>
+		</div>
+ 
+        </article>
+		
+		<div class="content">
+			
+			 <header>
+			 
+			  <h1 id="projekt"> O projekcie </h1>
+			  
+			 </header>
+			
+			  
+			  <p> Celem projektu jest stworzenie pełnoprawnej gry. Wymaga to nabycie podstawowych umiejętności w zakresie programowania oraz obsługi wybranego silnika graficznego. Niniejsza strona jest jednym z testowych projektów w drodze do osiągniecia powyższego celu. Kolejny etap przewisuje stworzenie niesprecyzowanej jeszcze gry przegladarkowej. Docelowy projekt to gra mmo, jednak jest to najbardziej zaawansowany projekt wymagający dodatkowej wiedzy z zakresu połaczenia serverowego. Dlatego jest to raczej plan długoterminowy, do którego będziemy dążyć małymi krokami zdobywając nowe umiejętności. </p>
+			  
+			  <div class="devimg"></div>
+			  
+			  <p> Na obecną chwilę projektem zainteresowane są 2 osoby, każda kolejna osoba proszona jest o kontakt przez dowolne social media. Każdy chętny, który chce rozpocząć przygodę z programowaniem jest mile widziany. Sami jestesmy noobkami samoukami czerpiący wiedzę głównie z internetu.</p>
+
+			  
+			   
+			  <p>Jeśli jesteś grafikiem, lub tworzysz modele czy tekstury to właśnie Ciebie szukamy. Tworzenie gier to nie tylko sztywne kodowanie, ale także tworzenie oprawy audiowizualnej. Nasz projekt ma łączyć w sobie zabawę oraz naukę w celu stworzenia czegoś z niczego.</p>
+			  
+			  <p><span style="color:#39a5f1;">"Do you want to spend the rest of your life selling sugared water or do you want a chance to change the world?" </span>- Steve Jobs.</p>
+			  
+			 
+
+
+			 </div>
+			  
+		</article>
+		
+		
+	
+	    <footer>
+	
+		<div class="socials">
+			<div class="socialdivs">
+			
+				<div class="fb">
+					<i class="icon-facebook"></i>
+				</div>
+				<div class="yt">
+					<i class="icon-youtube"></i>
+				</div>
+				<div class="tw">
+					<i class="icon-twitter"></i>
+				</div>
+				<div class="gplus">
+					<i class="icon-gplus"></i>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+		</div>
+		
+		<div id="info">
+			Wszelkie prawa zastrzeżone &copy; 2017
+		</div>
+	
+	</footer>
+	
+	<a href="#" class="upper"></a>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </body>
+ 
+ </html>
